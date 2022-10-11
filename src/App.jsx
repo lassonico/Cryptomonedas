@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import styled from "@emotion/styled"
-import Formulario from "./assets/components/Formulario"
-import Imagenes from './assets/components/Imagenes'
-import Modal from './assets/components/Modal'
+import Formulario from "../src/components/Formulario"
+import Imagenes from '../src/components/Imagenes'
+import Modal from '../src/components/Modal'
 
 const Contenedor = styled.div`
   max-width: 900px;

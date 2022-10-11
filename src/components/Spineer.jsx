@@ -1,4 +1,4 @@
-import '../../styles/Spineer.css'
+import '../styles/Spineer.css'
 
 const Spineer = () => {
   return (
