@@ -69,18 +69,18 @@ const Imagen = styled.img`
   margin: -20px auto 0 auto;
 `
 const Precio = styled.h2`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-align: left;
   font-family: 'Saira', sans-serif;
-  line-height: 5px;
+  line-height: 2px;
 `
 const Parrafos = styled.p`
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   text-align: left;
   font-family:  'Saira', sans-serif;
-  line-height: 5px;
+  line-height: 2px;
 
 `
 const Divtextos = styled.div`
@@ -89,7 +89,7 @@ const Divtextos = styled.div`
   justify-content: space-between;
 `
 const Spans = styled.span`
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   font-family: 'Saira', sans-serif;
   color: #17c0eb;
@@ -138,11 +138,11 @@ const Modal = ({cerrarModal, contizacion, monedas, cargando}) => {
                   <Spans>{PRICE}</Spans>
                 </Divtextos>
                 <Divtextos>
-                  <Parrafos>Precio más alto del día:</Parrafos>
+                  <Parrafos>Mayor del día:</Parrafos>
                   <Spans>{HIGHDAY}</Spans>
                 </Divtextos>
                 <Divtextos>
-                  <Parrafos>Precio más bajo del día:</Parrafos>
+                  <Parrafos>Menor del día:</Parrafos>
                   <Spans>{LOWDAY}</Spans>
                 </Divtextos>
                 <Divtextos>
